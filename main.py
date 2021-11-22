@@ -11,7 +11,7 @@ from tqdm import tqdm
 requests.packages.urllib3.disable_warnings(
     requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-bot = telebot.TeleBot("1958392182:AAGWEOLF4YIvsIiLvpz-BOlJOGPb6IRYJow",
+bot = telebot.TeleBot("",
                       parse_mode="HTML")  # You can set parse_mode by default. HTML or MARKDOWN
 
 
